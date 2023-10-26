@@ -2,43 +2,66 @@ body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 400px;
+    min-width: 500px;
+    background: #18242b;
+    
 }
 
 input {
     width: 100%;
+    background: transparent;
     box-sizing: border-box;
-    border: solid #5f9341 1px;
-    padding: 10px ;
-    border-radius: 0px;
+    outline: 0;
+    border: #0b1114 1px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: #05080a 5px 10px 20px;
+    caret-color: #06e097;
+    caret-shape: underscore;
+    font-weight: bold;
+    color: #06e097;
 }
 
 button {
-    background-color: #5f9341;
-    color: #ffff;
+    background-color: #06e097;
+    color: #18242b;
     padding: 10px 20px;
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
     font-weight: bold;
-    border: 1px solid #5f9341;
+    border: 0px solid;
+    border-radius: 15px;
+    box-shadow: #000000 2px 2px 10px;
 }
 
 #delete-btn{
-    background-color: #ffff;
-    color: #5f9341;
+    background: #18242b;
+    color: #f81e13;
+    box-shadow: #0e151a 1px 1px 8px;
 
+}
+
+#btns{
+    display: flex;
+    justify-content: space-around;
 }
 
 ul {
     margin-top: 13px;
     list-style: none;
     padding: 0px;
+    text-decoration: none;
+    text-align: center;
 }
 
 li {
-   margin-top: 7px;
+   margin-top: 30px;
 }
 
 li a {
     margin-left: 0px;
-    color: #5f9341;
+    color: #06e097;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
 }
