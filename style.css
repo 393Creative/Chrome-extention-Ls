@@ -15,13 +15,18 @@ input {
 
 button {
     background-color: #5f9341;
-    border: solid 0px;
     color: #ffff;
     padding: 10px 20px;
     margin-top: 5px;
     font-weight: bold;
+    border: 1px solid #5f9341;
 }
 
+#delete-btn{
+    background-color: #ffff;
+    color: #5f9341;
+
+}
 
 ul {
     margin-top: 13px;
